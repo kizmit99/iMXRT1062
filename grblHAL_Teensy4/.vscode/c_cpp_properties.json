@@ -9,10 +9,10 @@
             "name": "PlatformIO",
             "includePath": [
                 "d:/Projects/GrblPendant/grblHAL/iMXRT1062/grblHAL_Teensy4/src",
-                "d:/Projects/GrblPendant/grblHAL/iMXRT1062/grblHAL_Teensy4/.pio/libdeps/teensy41/lwip/src",
                 "d:/Projects/GrblPendant/grblHAL/iMXRT1062/grblHAL_Teensy4/.pio/libdeps/teensy41/uSDFS/src",
                 "C:/Users/admin/.platformio/packages/framework-arduinoteensy/libraries/USBHost_t36",
                 "C:/Users/admin/.platformio/packages/framework-arduinoteensy/libraries/USBHost_t36/utility",
+                "d:/Projects/GrblPendant/grblHAL/iMXRT1062/grblHAL_Teensy4/.pio/libdeps/teensy41/lwip/src",
                 "C:/Users/admin/.platformio/packages/framework-arduinoteensy/cores/teensy4",
                 "C:/Users/admin/.platformio/packages/framework-arduinoteensy/libraries/ADC",
                 "C:/Users/admin/.platformio/packages/framework-arduinoteensy/libraries/AccelStepper/src",
@@ -117,10 +117,10 @@
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
                     "d:/Projects/GrblPendant/grblHAL/iMXRT1062/grblHAL_Teensy4/src",
-                    "d:/Projects/GrblPendant/grblHAL/iMXRT1062/grblHAL_Teensy4/.pio/libdeps/teensy41/lwip/src",
                     "d:/Projects/GrblPendant/grblHAL/iMXRT1062/grblHAL_Teensy4/.pio/libdeps/teensy41/uSDFS/src",
                     "C:/Users/admin/.platformio/packages/framework-arduinoteensy/libraries/USBHost_t36",
                     "C:/Users/admin/.platformio/packages/framework-arduinoteensy/libraries/USBHost_t36/utility",
+                    "d:/Projects/GrblPendant/grblHAL/iMXRT1062/grblHAL_Teensy4/.pio/libdeps/teensy41/lwip/src",
                     "C:/Users/admin/.platformio/packages/framework-arduinoteensy/cores/teensy4",
                     "C:/Users/admin/.platformio/packages/framework-arduinoteensy/libraries/ADC",
                     "C:/Users/admin/.platformio/packages/framework-arduinoteensy/libraries/AccelStepper/src",
@@ -223,7 +223,7 @@
                 ]
             },
             "defines": [
-                "PLATFORMIO=60105",
+                "PLATFORMIO=60107",
                 "__IMXRT1062__",
                 "ARDUINO_TEENSY41",
                 "USB_SERIAL",
