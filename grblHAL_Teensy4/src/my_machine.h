@@ -80,11 +80,11 @@ N_AXIS has a default value of 3, edit grbl\config.h to increase.
 //#define ODOMETER_ENABLE      1 // Odometer plugin.
 //#define OPENPNP_ENABLE       1 // OpenPNP plugin. To be completed.
 //#define FANS_ENABLE          1 // Enable fan control via M106/M107. Enables fans plugin.
-#define EEPROM_ENABLE        2 // I2C EEPROM support. Set to 1 for 24LC16 (2K), 3 for 24C32 (4K - 32 byte page) and 2 for other sizes. Enables eeprom plugin.
+//#define EEPROM_ENABLE        2 // I2C EEPROM support. Set to 1 for 24LC16 (2K), 3 for 24C32 (4K - 32 byte page) and 2 for other sizes. Enables eeprom plugin.
 //#define EEPROM_IS_FRAM       1 // Uncomment when EEPROM is enabled and chip is FRAM, this to remove write delay.
 //#define SPINDLE_SYNC_ENABLE  1 // Enable spindle sync support (G33, G76). !! NOTE: Alpha quality - enable only for test or verification.
                                  // Currently only available for BOARD_T41BB5X_PRO and BOARD_T41U5XBB_SS.
-#define ESTOP_ENABLE         0 // When enabled only real-time report requests will be executed when the reset pin is asserted.
+//#define ESTOP_ENABLE         0 // When enabled only real-time report requests will be executed when the reset pin is asserted.
                                  // Note: if left commented out the default setting is determined from COMPATIBILITY_LEVEL.
 
 // If the selected board map supports more than three motors ganging and/or auto-squaring
